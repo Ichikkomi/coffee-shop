@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Gantari", sans-serif;
+}
+.gantari-font1 {
+  font-family: "Gantari", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10;
+  font-style: normal;
+}
+
+.inter-font2 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    background-color: #2D1900;
+    margin: 0;
+    padding: 0;
+}
+/* Container for left-section*/
+.Containers{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.Intro-Section{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -46%;
+    align-items: center;
+}
+
+.Intro-Section p{
+    font-size: 20px;
+    font-family: "Gantari", sans-serif;
+}
+
+.Coffee-beans{
+    width: 100vh;
+}
+.feedback-1{
+    background-color: white;
+    color: black;
+    margin-top: 14%
+}
+.Logo-and-Text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    position: absolute;
+    margin-top: 30%;
+}
+.Logo-and-Text p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    margin-top: 60%;
+    width: 200%;
+}
+.Logo {
+  width: 80%;
+}
+.feedback-1{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.feedback-1 img{
+    width: 100%;
+    position: relative;
+    top: -20%;
+}
+.description-and-button{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color: antiquewhite;
+    font-size: 50px;
+    gap: 10px;
+    
+}
+.description-and-button h6{
+    font-size: 25px;
+    position: relative;
+    top: -10%;
+   
+}
+.description-and-button h6 i{
+    font-size: 20px;
+    font-weight: 100;
+
+
+}
+.description-and-button button{
+    background-color: #583916;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: #d8841d 0px 8px 15px;
+}
+.description-and-button button:hover{
+    background-color: #75451c;
+    box-shadow: 0 15px 20px rgba(255, 195, 167, 0.4);
+    color: white;
+    transform: translateY(-2px);
+    transition: all 0.3s ease-in-out;
+}
+
+.description-and-button a{
+    color: white;
+    text-decoration: none;
+    text-decoration: dashed underline;
+}
+
+
+/*Advertisement-section*/
+
+
+.Ads-Section{
+    display: flex;
+    flex-direction: column;
+    background-color: #2E3138;
+    height: 100vh;
+    width: 60%;
+    margin-right: 5%;
+    align-items: center;
+    gap: 20px;
+}
+.Ads-Section h4{
+    color: white;
+    font-size: 40px;
+    margin-top: 7%;
+    font-family: "Inter", sans-serif;
+   
+}
+.Ads-Section h5 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: relative;
+    bottom: 20%;
+    font-weight: 100;
+}
+.Ads-Section h6 i{
+    color: white;
+    font-size: 20px;
+    align-self: center;
+    position: relative;
+    top: -50%;
+    right: -60%;
+    font-weight: 100;
+    
+}
+.Ads-Section img{
+    width: 100%;
+    padding: 0;
+    position: relative;
+    top: -10%;
+   
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    bottom: 18%;
+}
+.socials img{
+    position: relative;
+}
+
+.socials img:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
